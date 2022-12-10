@@ -18,7 +18,7 @@
 
 
 
-    <title>Input Group</title>
+    <title>Alerta</title>
 
 
 </head>
@@ -26,66 +26,45 @@
 
 <body>
 
-  <h1 class="display-4 text-center">Input Group</h1>
-  <h3>Prepand</h3>
-
-  <div class="input-group mb-3">
-
-    <div class="input-group-prepend">
-      <span class="input-group-text" id="basic-addon1">@</span>
-    </div>
-
-    <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+  <h3>Alertas</h3>
 
 
+  <div class="alert alert-primary" role="alert">
+    Um simples alerta <strong>primary</strong>. Olha só!
   </div>
+  <div class="alert alert-secondary" role="alert">
+    Um simples alerta <strong>secondary</strong>. Olha só!
+  </div>
+  <div class="alert alert-success" role="alert">
+    Um simples alerta <strong>success</strong>. Olha só!
+  </div>
+  <div class="alert alert-danger" role="alert">
+    Um simples alerta <strong>danger</strong>. Olha só!
+  </div>
+  <div class="alert alert-warning" role="alert">
+    Um simples alerta <strong>warning</strong>. Olha só!
+  </div>
+  <div class="alert alert-info" role="alert">
+    Um simples alerta <strong>info</strong>. Olha só!
+  </div>
+  <div class="alert alert-light" role="alert">
+    Um simples alerta <strong>light</strong>. Olha só!
+  </div>
+  <div class="alert alert-dark" role="alert">
+    Um simples alerta<strong> dark</strong>. Olha só!
+  </div>
+
+  <h3>Botão com alerta</h3>
+
+  <div class="alert alert-warning alert-dismissible ">
+    <button class="close" type="buttom" data-dismiss="alert">
+      &times;
+    </button>
+    <strong>Fechar</strong>Alerta com botão
+  </div>
+
+  <br><br>
   
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Recipiente para nickname" aria-label="Recipiente para nickname" aria-describedby="basic-addon2">
-    <div class="input-group-append">
-      <span class="input-group-text" id="basic-addon2">@exemplo.com</span>
-    </div>
-  </div>
-  
-  <label for="basic-url">Sua tão honrada URL</label>
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text" id="basic-addon3">https://exemplo.com.br/users/</span>
-    </div>
-    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-  </div>
-  
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text">R$</span>
-    </div>
-    <input type="text" class="form-control" aria-label="Quantia">
-    <div class="input-group-append">
-      <span class="input-group-text">.00</span>
-    </div>
-  </div>
-  
-  <h3>Ckeckbox & Radio</h3>
-
-  <!-- CHECKBOX -->
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <div class="input-group-text">
-        <input type="checkbox" aria-label="Chebox para permitir input text">
-      </div>
-    </div>
-    <input type="text" class="form-control" aria-label="Input text com checkbox">
-  </div>
-  
-  <!-- RADIO -->
-  <div class="input-group">
-    <div class="input-group-prepend">
-      <div class="input-group-text">
-        <input type="radio" aria-label="Botão radio para acompanhar input text">
-      </div>
-    </div>
-    <input type="text" class="form-control" aria-label="Input text com botão radio">
-  </div>
 
     
 
